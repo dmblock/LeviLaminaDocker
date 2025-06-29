@@ -1,0 +1,8 @@
+{
+  "name": "lantian",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "docker build -t lantian/levilamina:latest ."
+  },
+  "author": "你来坑我啊"
+}
