@@ -17,5 +17,5 @@ RUN "mv /c/entrypoint.sh /c/msys64/usr/bin/bluesky"
 
 RUN "bash -c /c/install.sh"
 
-# 如果你想使用默认的启动命令，就取消下面的注释
+# 如果你想使用默认的启动命令，就取消下面的注释,翼龙和mcsm不需要取消注释
 # ENTRYPOINT ["bash", "-c", "bluesky"]
